@@ -10,8 +10,8 @@ function Contact(props) {
           <h4 className="name">{props.firstname} {props.lastname}</h4>
         </div>
         <div class="flex">
-          <div className={props.online? "status-online" : "status-offline"}> </div>
-          <p className="status-text">{props.online? "Online" : "Offline"}</p></div>
+          <div className={props.online ? "status-online" : "status-offline"}> </div>
+          <p className="status-text">{props.online ? "Online" : "Offline"}</p></div>
       </div>
 
     </div>
